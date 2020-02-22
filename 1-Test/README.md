@@ -33,10 +33,12 @@ Hello TerraForm
 }
 ```
 ### Print Map Variable Value with key
+```
 > var.mymap["mykey"]
 "My Value"
 > "${var.mymap["mykey"]}"
 "My Value"
+```
 
 ### Print List Variables
 ```
