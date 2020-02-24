@@ -1,8 +1,16 @@
+# Declaring a Number Variable
+variable "mynum" {
+    type = number
+    default = 443
+}
+
+
 # Declaring String Variables
 variable "myvar" {
-    type = "string"
+    type = string
     default = "Hello TerraForm"
 }
+
 # Declaring Map|Dict Variables
 variable "mymap" {
     type = map(string)
@@ -15,4 +23,17 @@ variable "mymap" {
 variable "mylist" {
     type = list
     default = [1, 2, 3]
+}
+
+
+# Declaring Object Variable
+variable "myobj" {
+    type = object({
+        a = number
+        b = string
+    })
+    default = {
+        a: 123,
+        b: "abc"
+    }
 }
