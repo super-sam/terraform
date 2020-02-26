@@ -7,7 +7,7 @@ variable "instance_type" {
 }
 
 variable "ami" {
-    default = "ami-0c55b159cbfafe1f0"
+    default = "ami-08bc77a2c7eb2b1da"
 }
 
 variable "profile" {}

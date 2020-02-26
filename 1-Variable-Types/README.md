@@ -1,5 +1,5 @@
 
-# Run Basic Terraform File Execution
+# Assigning Values to Variables
 Create a terraform file to store variables the variables. Get the value of the variables in the **_terraform console_**
 
 ## Pre-Requisite
