@@ -1,5 +1,15 @@
+# Contents
+We will be discussion the following:
+- What is Terraform and Why to us it?
+- Setup
+- Declare Variables
+- Assign Values to variables
+- Create EC2 Instance in AWS
+- Create Lambda funtion in AWS
+- Create API Gateway in AWS
+- Create Lambda funtion and Map it to new API Gateway endpoint in AWS
 
-# What is Terraform and Why to use it?
+## What is Terraform and Why to use it?
 
 Terraform is the **infrastructure as code** offering from HashiCorp. 
 It helps with the following:
